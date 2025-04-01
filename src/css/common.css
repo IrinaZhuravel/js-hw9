@@ -10,9 +10,29 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  transition: background-color 1s ease;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+.container {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.container button {
+font-size: 24px;
+font-weight: 700;
+padding: 12px 24px;
+margin: 12px;
+border: 1px solid black;
+border-radius: 8px;
+cursor: pointer;
+}
+
