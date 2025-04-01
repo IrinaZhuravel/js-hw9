@@ -1,1 +1,0 @@
-{"mappings":"ACCA","sources":["my-first-parcel.77d7b8dd.css","src/sass/style.scss"],"sourcesContent":["body {\n  background-color: #f0f0f0;\n}\n/*# sourceMappingURL=my-first-parcel.77d7b8dd.css.map */\n","// src/sass/style.scss\r\nbody {\r\n    background-color: #f0f0f0;\r\n  }"],"names":[],"version":3,"file":"my-first-parcel.77d7b8dd.css.map"}
