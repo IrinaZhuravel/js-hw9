@@ -1,0 +1,1 @@
+{"mappings":"AACA","sources":["src/sass/style.scss"],"sourcesContent":["// src/sass/style.scss\r\nbody {\r\n    background-color: #f0f0f0;\r\n  }"],"names":[],"version":3,"file":"my-first-parcel.75f14d4e.css.map","sourceRoot":"/__parcel_source_root/"}
