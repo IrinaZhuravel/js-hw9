@@ -4,10 +4,14 @@ const body = document.querySelector("body");
 
 let timerId = null;
 
+const toggle = (run) => {
+  startBtn.disabled = run;
+  stopBtn.disabled = !run;
+}
+
 const startColorSwitch = () => {
-  if (timerId) return;
-  startBtn.setAttribute("disabled", "true");
-  stopBtn.removeAttribute("disabled");
+toggle(true);
+
 
   timerId = setInterval(() => {
     const bgc = getRandomHexColor();
@@ -17,8 +21,7 @@ const startColorSwitch = () => {
 
 const stopColorSwitch = () => {
 clearInterval(timerId);
-startBtn.removeAttribute("disabled");
-stopBtn.setAttribute("disabled", "true");
+toggle(false);
 }
 
 function getRandomHexColor() {
