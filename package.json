@@ -19,7 +19,9 @@
     "url": "https://github.com/IrinaZhuravel/js-hw9/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.8"
   },
   "devDependencies": {
     "@parcel/transformer-image": "^2.14.2",

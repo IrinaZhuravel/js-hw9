@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -19,7 +19,7 @@ img {
 }
 
 .container {
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -27,12 +27,46 @@ img {
 }
 
 .container button {
-font-size: 24px;
-font-weight: 700;
-padding: 12px 24px;
-margin: 12px;
-border: 1px solid black;
-border-radius: 8px;
-cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 12px 24px;
+  margin: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
+.timer-container {
+  flex-direction: column;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  font-size: 28px;
+}
+.value {
+  font-weight: 500;
+}
+
+.field:not(:last-child) {
+  margin-right: 24px;
+}
+
+#datetime-picker {
+  font-size: 24px;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+
+[data-start] {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input {
+  margin-bottom: 24px;
+}
